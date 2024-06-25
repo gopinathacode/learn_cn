@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af17146c2f548bdd1333112bea3468bb",
+    "content-hash": "1d3d8a364ff18259ff996877f2ecec2a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1093,6 +1093,24 @@
                 }
             ],
             "time": "2023-11-12T22:43:29+00:00"
+        },
+        {
+            "name": "wpackagist-theme/astra",
+            "version": "4.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/astra/",
+                "reference": "4.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/astra.4.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/astra/"
         },
         {
             "name": "wpackagist-theme/neve",
